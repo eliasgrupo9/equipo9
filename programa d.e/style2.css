@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('fondi.jpg');
+    background-position:center;
+}
+form {
+    width: 400px;
+    background: #B6E3E9;
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman';
+    color: lightskyblue;
+    box-shadow: 7px 13px 37px #000;
+
+}
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: plum;
+    font-family: 'Times New Roman';
+}
+h2 {
+    margin-bottom:-15px;
+    font-size: 18px;
+    color:lightseagreen;
+}
+input {
+    width: 100%;
+    background: lightBlue;
+    padding:15px;
+    border-radius:5px;
+    margin-bottom: 1px;
+    border: 0.25px solid #1f53c5;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    color: purple;
+}
+value {
+    width: 100%;
+    background: #abdbe3;
+    border: none;
+    padding: 12px;
+    color: blueviolet;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.check {
+  padding:30px;
+}
+
+.button {
+    width: 100%;
+    background: #abdbe3;
+    border: none;
+    padding: 12px;
+    color: plum;
+    margin: 40px 0;
+    font-size: 16px;
+}
+a {
+    margin-bottom:15px;
+}
+   

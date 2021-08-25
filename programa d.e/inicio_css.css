@@ -1,0 +1,30 @@
+/* CSS Document */
+/*normalisar html*/
+
+body{
+	background-image: url(img/inicio.png);
+	text-align: center;
+	margin: 200px;
+	font-size: 40px;
+}
+table{
+	border-style: solid;
+	border-color: black;
+
+}
+table td{
+	border-style: solid;
+	border-color: black;
+}
+table td img{
+	float: right;
+}
+table tr{
+	border-style: solid;
+	border-color: black;
+
+}
+a {
+	
+	position: center;
+}

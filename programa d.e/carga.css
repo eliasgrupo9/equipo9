@@ -1,0 +1,13 @@
+/* CSS Document */
+/*normalisar html*/
+
+body{
+	background-color: #5ADFDD;
+	text-align: center;
+}
+img{
+	border-radius: 400px;
+	width: 800px;
+	height: 800px;
+	margin-top: 60px;
+}

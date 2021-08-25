@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-image: url('antes.png');
+}
+div {
+    margin-top: 300px;
+    border: 10px outset skyblue;
+    height: 75px;
+    max-width:800px;
+    padding: 0;
+    margin: 100px auto 0 auto;
+}
+h1{
+    margin-left:300px;
+    margin-top:10px;
+    
+}
+button {
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: italic;
+    color: slateblue;
+    background-color: steelblue;
+    border-radius: 15px;
+    border: 3px double #2FA88C;
+    margin-left: 900px;
+    margin-top: 25px;
+}p {
+    margin:100px;
+    text-indent: -25px;
+    font-size: x-large;
+    direction: ltr;
+    white-space: pre-line;
+}
+canvas {
+    background: #eee;
+    margin:100px;
+    position:center;
+    margin-left:450px;
+}
+a {
+    text-decoration: none;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    font-weight: 100;
+    font-size: 40px;
+    font-style: italic;
+    color: slateblue;
+    background-color: steelblue;
+    border-radius: 15px;
+    border: 3px double #2FA88C;
+    margin-left: 900px;
+    margin-top: 100px;
+}
+

@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>publica</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        canvas {
+            background: #eee;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+
+    <link rel="stylesheet" href="publica.css">
+    <link rel="javascript" href="publica.js">
+
+</head>
+
+<body>
+    <div id="container">
+
+        <h1>dibuja</h1>
+
+
+    </div>
+
+
+    <canvas id="myCanvas" width="970" height="520"></canvas>
+
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.rect(350, 200, 50, 50);
+        ctx.fillStyle = "black";
+        ctx.fill();
+        ctx.closePath();
+        ctx.beginPath();
+
+        ctx.rect(600, 220, 50, 20);
+        ctx.fillStyle = "black";
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.arc(500, 300, 20, 0, Math.PI * 2, false);
+        ctx.fillStyle = "red";
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.rect(400, 350, 200, 20);
+        ctx.strokeStyle = "rgba(0, 0, 255, 0.5)";
+        ctx.stroke();
+        ctx.closePath();
+    </script>    <form method="get" action="/page2">
+                     <a href="antes.html" type="submit">atras</a>
+    </form>
+
+</body>
+</html>
